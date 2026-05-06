@@ -1,4 +1,4 @@
-##Join Croll Studios !! - discord.gg/DBqCZjZ8VN
+## Join Croll Studios !! - discord.gg/DBqCZjZ8VN
 
 # Qbox Stripper Pole Resource
 
