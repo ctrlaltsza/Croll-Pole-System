@@ -4,18 +4,7 @@ local currentDancePole = nil
 local isDancing = false
 
 local function HasJob()
-    if not Config.JobLock.enabled then return true end
-
-    local playerData = exports.qbx_core:GetPlayerData()
-    if not playerData or not playerData.job then return false end
-
-    for _, job in pairs(Config.JobLock.jobs) do
-        if playerData.job.name == job then
-            return true
-        end
-    end
-
-    return false
+    return Framework.HasJob(Config.JobLock.jobs)
 end
 
 local function LoadAnim(dict)
