@@ -1,5 +1,8 @@
 Config = {}
 
+Config.Framework = 'auto'
+Config.CleanMoneyAsItem = false
+
 Config.UseProps = true
 
 Config.JobLock = {
@@ -31,7 +34,7 @@ Config.Anim = {
 }
 
 Config.Items = {
-    cashroll = 'cashrolls',
+    cashroll = 'cashroll',
     cashband = 'cashband',
     cleanMoney = 'money'
 }
