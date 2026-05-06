@@ -3,7 +3,7 @@ game 'gta5'
 
 lua54 'yes'
 
-author 'NoCtrl Studios'
+author 'Croll Studios'
 description 'Qbox Stripper Pole Script'
 version '1.0.0'
 
